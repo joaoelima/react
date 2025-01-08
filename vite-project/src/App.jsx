@@ -1,9 +1,10 @@
-
-function App() {
-
-  return (
-    <h1>Hello World</h1>
-  )
+import { Post } from './Post';
+import './styles.css';
+export function App() {
+  return(
+    <div>
+      <Post />
+    </div>
+  
+)
 }
-
-export default App
